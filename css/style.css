@@ -154,7 +154,6 @@ h2 {
 	background-color: #101010;
   display: flex;
   flex-direction: column;
-  padding: 0.8em;
 	width: 100%; 
 }
 
@@ -172,6 +171,11 @@ h2 {
 
 .banner-right {
   margin: 11px;
+}
+
+.teaser-text {
+  padding: 5px;
+  display: inline-block;
 }
 
 
@@ -248,6 +252,18 @@ footer {
   .banner-top {
     display: none;
   }
+
+  .banner-right {
+    margin: 5px;
+    height: 180px;
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .banner-right img {
+    width: 100%;
+  }
+
 }
 
 /* MEDIA QUERIES DESKTOP */
@@ -269,6 +285,8 @@ footer {
 
   .banner-right {
     height: 460px;
+    margin: 11px;
+    width: 15%;
   }
 
   .banner-right img {
